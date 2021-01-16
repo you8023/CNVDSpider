@@ -6,6 +6,8 @@ Crawl CNVD shared vulnerabilities with js
 写论文需要用到[CNVD漏洞库](https://www.cnvd.org.cn/)的数据，然而，该页面有反爬机制，无法抓取全部数据，因此，使用js绕过反爬，实现效果如下：
 ![CNVD共享漏洞爬虫效果](https://upload-images.jianshu.io/upload_images/5714082-d401b7faeba1bea9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+可以直接到GitHub查看[完整代码](https://github.com/you8023/CNVDSpider)，欢迎留言点赞打赏提issue点star
+
 ## 环境
 * windows 10
 * Chrome浏览器
@@ -260,7 +262,7 @@ a为资源链接后面的数字，经过观察，从242开始，到733结束，�
 
 3. 点击`console`控制台
 
-4. 复制粘贴上述代码（三段代码合并在一起即可）到控制台中，按下回车，代码开始运行
+4. 复制上述代码（三段代码合并在一起即可），也可以直接到GitHub下载[完整代码](https://github.com/you8023/CNVDSpider)复制（其中spider.js为完整js代码，filter为后续过滤结果的代码，欢迎留言点赞打赏提issue点star），粘贴到控制台中，按下回车，代码开始运行
 
 5. 静等下载完毕即可，下载的文件存放在浏览器设定的下载路径里
 
